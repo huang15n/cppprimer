@@ -1,0 +1,53 @@
+#include<iostream>
+
+/**
+
+author : Eddie Huang
+Version alpha1 
+
+this code is composed of several important concpets, 
+flow of control allows for complicatiosn and repetitions 
+while loop 
+for loop 
+
+a block is a sequene of zero or more statement enclosed by curly braces 
+assignment adds its right hand operand to its left hand operand and stores the result in the left hand operand 
+
+just to keep in mind, later on , we will get involved with membre functions in c++. but it only goes to the class defintion and delcaration part 
+
+
+
+**/
+
+int main(int argc, const char*argv[]){
+
+
+
+// while loop , executed testing the condition that is an expression that yields sa result that is either true or false so long as the condition is true , statement is executed 
+
+int counter = 0;
+while(counter < 10){
+std :: cout << counter << std :: endl;
+
+//actions 
+++counter;
+}
+
+for(int count =0; count < 10; count++){
+std :: cout << count << std :: endl;
+
+//actions 
+++count;
+}
+
+if (counter >= 9){
+
+std :: cout << "now the counter is greater than 9" << std :: cout;
+}
+
+
+ 
+
+
+return 0;
+}
